@@ -1,0 +1,70 @@
+.climate_change_header {
+  padding-top: 80px;
+  padding-left: 40px;
+  font-size: 18px;
+  color: white;
+}
+
+.climate_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.climate_card {
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 20vw;
+  margin: 35px;
+  padding-left: 10px;
+  opacity: 70%;
+  z-index: 1000;
+  font-size: 10px;
+  box-shadow: 10px 5px 5px #368cc1;
+}
+
+.link_image {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.icecaps_video {
+  width: 110vw;
+  height: 300vw;
+  z-index: -1;
+  object-fit: cover;
+  position: fixed;
+}
+
+.climate_loading {
+  color: black;
+  text-shadow: 0 0 1px #0d14ddcb, 0 0 1px #030adc,
+    0 0 1px #dbdce2 0 0 42px #dbdce2, 0 0 82px #dbdce2 0 0 92px rgb(19, 45, 212),
+    0 0 102px rgb(19, 45, 212), 0 0 151px rgb(19, 45, 212);
+  text-align: center;
+  margin-top: 190px;
+  font-size: 20px;
+  animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px darkblue,
+      0 0 80px darkblue, 0 0 90px darkblue, 0 0 100px darkblue,
+      0 0 150px rgb(22, 11, 230);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}

@@ -1,0 +1,44 @@
+.weather_card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  opacity: 50%;
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.heading__city {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.heading__location {
+  margin-top: -14px;
+  font-weight: bolder;
+}
+
+.heading__weatherstatus {
+  margin-top: -4px;
+}
+.heading__image {
+  width: 90px;
+  height: 90px;
+  align-self: center;
+  margin-top: -9px;
+  margin-bottom: -20px;
+}
+
+.heading__uv {
+  margin-bottom: -10px;
+  margin-left: 5px;
+}
+
+p {
+  font-size: 13px;
+}

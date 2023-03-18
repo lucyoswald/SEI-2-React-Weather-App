@@ -1,0 +1,76 @@
+.ocean_warming {
+  margin-left: 50px;
+  margin: 10px;
+}
+
+.ocean_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.ocean_warming_card {
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 20vw;
+  margin: 35px;
+  padding-left: 10px;
+  opacity: 70%;
+  z-index: 1000;
+  box-shadow: 10px 5px 5px rgb(1, 71, 71);
+}
+
+.ocean_header {
+  padding-top: 100px;
+  padding-left: 20px;
+  color: whitesmoke;
+}
+.ocean_video {
+  width: 110vw;
+  height: 300vw;
+  z-index: -1;
+  position: fixed;
+  object-fit: cover;
+}
+
+.ocean_loading {
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px rgb(30, 100, 77), 0 0 151px #0fa;
+  text-align: center;
+  margin-top: 190px;
+  font-size: 20px;
+  animation: flicker 1.5s infinite alternate;
+}
+
+.earth {
+  padding-left: 22px;
+  color: whitesmoke;
+  margin-top: -12px;
+  font-size: 16px;
+}
+
+.earth_link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa,
+      0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}

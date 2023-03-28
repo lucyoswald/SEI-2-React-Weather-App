@@ -1,6 +1,5 @@
 
-# SEI Project 2 - Weather API React App
-## Overview
+## SEI Project 2 - Weather API React App
 
 For project 2 we were asked to make a front-end React web app, using a free public API. 
 My app allows users to search for any city and get the current weather information for that location in the form of a weather card. In addition to the main feature, the app also includes two other pages: one that displays the dates on which the ocean temperature has increased over the years and another that provides links to articles on climate change. 

@@ -246,7 +246,8 @@ const ClimateChangeNewsCard = ({ climate }) => {
 };
 
 export default ClimateChangeNewsCard;
-        ```
+
+```
   
 ## Styling
 * I wanted to create some moveable backgrounds for my pages using video clips - I continued this theme throughout all my pages, the homepage background being my favourite out of the three. 
@@ -293,7 +294,7 @@ export default ClimateChangeNewsCard;
     text-shadow: none;
   }
 }
- ```
+```
 ##  Finished Product 
 
 insert video of finished product 

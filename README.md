@@ -296,8 +296,7 @@ export default ClimateChangeNewsCard;
 }
 ```
 ##  Finished Product 
-
-insert video of finished product 
+<video src="">
  
 ## Wins & Challenges
 

@@ -46,7 +46,7 @@ I started planning by heading onto Exclidraw and working and mapping out the mai
 1. I worked on Excalidraw just mapping out my homepage that would include the search bar.
 2. Then the weather card and how that would look.
 
-<img width=49.5% src="insert pic of whiteboarding">
+<img width=90% src="https://user-images.githubusercontent.com/116687424/228586877-4efcab82-62bf-448c-a255-3cfcc3971173.png">
 
 
 ## Build/Code process

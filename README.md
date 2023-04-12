@@ -16,15 +16,7 @@ The app was built using three external public APIs to obtain the weather data, o
 
 ## 🛠 Technologies Used
 
-HTML  
-CSS 
-JavaScript 
-React.js
-SCSS
-Postman
-Git 
-GitHub
-Netlify
+HTML | CSS | JavaScript | React.js | SCSS | Postman | Git | GitHub | Netlify
 
 Timeframe:
 1 week | Solo project

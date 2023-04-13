@@ -10,7 +10,7 @@ The app was built using three external public APIs to obtain the weather data, o
 ## Project Brief
 * Consume a public API – this could be anything but it must make sense for your project
 * Have several components - At least one classical and one functional
-* The app can have a router - with several "pages", this is up to your descretion and if it makes sense for your project
+* The app can have a router - with several "pages", this is up to your discretion and if it makes sense for your project
 * Include wireframes - that you designed before building the app
 * Be deployed online and accessible to the public
 
@@ -33,7 +33,7 @@ HTML | CSS | JavaScript | React.js | SCSS | Postman | Git | GitHub | Netlify
 
 ## Planning
 
-I started planning by heading onto Exclidraw and working and mapping out the main page, I knew I wanted a clean search bar as the main homepage and that once the user typed in their chosen city a weather card would appear with the current weather, along with a little emoji like a cloud or sun etc. I also knew I wanted to keep the search bar on the page too so that the user wouldn’t have to click back to the homepage in case they wanted to just try another city. The card would just update everytime they typed something in so it felt seamless.
+I started planning by heading onto Excalidraw and working and mapping out the main page, I knew I wanted a clean search bar as the main homepage and that once the user typed in their chosen city a weather card would appear with the current weather, along with a little emoji like a cloud or sun etc. I also knew I wanted to keep the search bar on the page too so that the user wouldn’t have to click back to the homepage in case they wanted to just try another city. The card would just update everytime they typed something in so it felt seamless.
 
 1. I worked on Excalidraw just mapping out my homepage that would include the search bar.
 2. Then the weather card and how that would look.
@@ -319,4 +319,4 @@ I feel like I learnt so much from this project, I found it so cool being able to
 * They could then have a list of favourite places saved to their profile which they could flick through to see the weather for each one. 
 * Making my ocean warming & climate change pages more interactive.
 * Ocean Warming: not just having a list of data but maybe drop downs for each box with facts about that time of year.
-* Climate Change: maybe also more data about what people can do on their part to help negate the impact of climate change - i.e small life changes + petitions etc. 
+* Climate Change: maybe also more data about what people can do on their part to help negate the impact of climate change - i.e small life changes and petitions etc. 

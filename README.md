@@ -5,7 +5,7 @@ For project 2 we were asked to make a front-end React web app, using a free publ
 My app allows users to search for any city and get the current weather information for that location in the form of a weather card. In addition to the main feature, the app also includes two other pages: one that displays the dates on which the ocean temperature has increased over the years and another that provides links to articles on climate change. 
 The app was built using three external public APIs to obtain the weather data, ocean temperature data, and news articles. 
 
-#### Link to live site: https://glittery-dodol-1d8d5c.netlify.app/
+#### View the live site [here](https://glittery-dodol-1d8d5c.netlify.app/).
 
 ## Project Brief
 * Consume a public API – this could be anything but it must make sense for your project

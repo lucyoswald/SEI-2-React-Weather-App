@@ -5,27 +5,39 @@ import iceCapsVideo from "/Users/lucy/Documents/Projects/Project_2_Weather_API/s
 const ClimateChangeNews = () => {
   const [climateNews, setClimateNews] = useState([]);
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
-      const { data } = await axios.get(
-        "https://climate-change-live402.p.rapidapi.com/news",
-        {
+      try {
+        const options = {
+          method: "GET",
+          url: "https://climate-news-feed.p.rapidapi.com/",
+          params: {
+            source: "Nasa Climate",
+            limit: "50",
+            exclude: "The Guardian",
+          },
           headers: {
             "X-RapidAPI-Key":
               "9102ace32amsh4d7405d1d1dd687p1795bejsn0855f9247223",
+            "X-RapidAPI-Host": "climate-news-feed.p.rapidapi.com",
           },
-        }
-      );
-      const filteredData = data.filter((newsItem) =>
-        newsItem.url.startsWith("https:")
-      );
-      setClimateNews(filteredData);
-      setClimateNews(data);
-      setLoading(false);
-      console.log(data);
+        };
+
+        const response = await axios.request(options);
+
+        const filteredData = response.data.articles.filter(
+          (newsItem) => newsItem.url && newsItem.url.startsWith("https:")
+        );
+
+        setClimateNews(filteredData);
+        setLoading(false);
+      } catch (error) {
+        console.error(error);
+        setLoading(false);
+      }
     };
+
     fetchData();
   }, []);
 

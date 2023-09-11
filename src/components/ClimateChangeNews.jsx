@@ -12,11 +12,6 @@ const ClimateChangeNews = () => {
         const options = {
           method: "GET",
           url: "https://climate-news-feed.p.rapidapi.com/",
-          params: {
-            source: "Nasa Climate",
-            limit: "50",
-            exclude: "The Guardian",
-          },
           headers: {
             "X-RapidAPI-Key":
               "9102ace32amsh4d7405d1d1dd687p1795bejsn0855f9247223",

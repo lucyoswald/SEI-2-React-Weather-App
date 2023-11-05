@@ -21,16 +21,6 @@ HTML | CSS | JavaScript | React.js | SCSS | Postman | Git | GitHub | Netlify
 ## Timeframe
 1 week | Solo project
 
-
-## Project Brief
-* Render a game in the browser
-* Be built on a grid: do not use HTML Canvas for this
-* Design logic for winning & visually display which player won
-* Include separate HTML / CSS / JavaScript files
-* Use Javascript for DOM manipulation
-* Deploy your game online, where the rest of the world can access it (we will do this together at the end of the project)
-* Use semantic markup for HTML and CSS (adhere to best practices)
-
 ## Planning
 
 I started planning by heading onto Excalidraw and working and mapping out the main page, I knew I wanted a clean search bar as the main homepage and that once the user typed in their chosen city a weather card would appear with the current weather, along with a little emoji like a cloud or sun etc. I also knew I wanted to keep the search bar on the page too so that the user wouldn’t have to click back to the homepage in case they wanted to just try another city. The card would just update everytime they typed something in so it felt seamless.

@@ -23,7 +23,7 @@ HTML | CSS | JavaScript | React.js | SCSS | Postman | Git | GitHub | Netlify
 
 ## Planning
 
-I started planning by heading onto Excalidraw and working and mapping out the main page, I knew I wanted a clean search bar as the main homepage and that once the user typed in their chosen city a weather card would appear with the current weather, along with a little emoji like a cloud or sun etc. I also knew I wanted to keep the search bar on the page too so that the user wouldn’t have to click back to the homepage in case they wanted to just try another city. The card would just update everytime they typed something in so it felt seamless.
+I started planning by heading onto Excalidraw mapping out the main page, I knew I wanted a clean search bar as the main homepage and that once the user typed in their chosen city a weather card would appear with the current weather, along with a little emoji like a cloud or sun etc. I also knew I wanted to keep the search bar on the page too so that the user wouldn’t have to click back to the homepage in case they wanted to just try another city. The card would just update everytime they typed something in so it felt seamless.
 
 1. I worked on Excalidraw just mapping out my homepage that would include the search bar.
 2. Then the weather card and how that would look.
